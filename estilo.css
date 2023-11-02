@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+div.menu {
+    background-color: black;
+    min-height: 80px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+img.logo {
+    padding: 10px 0px 0px 10px;
+    float: left;
+    width: 63px;
+    height: 61px;
+}
+
+nav {
+    padding-top: 22px;
+    text-align: right;
+
+}
+
+nav>a {
+    color: white;
+    padding-right: 30px;
+    font-size: 28px;
+    text-decoration: none;
+    line-height: normal;
+}
+
+main{
+
+    background-image: url(Imagens/logobackgound.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+div.hugoimage{
+    display: inline-block;
+    width: 500px;
+    
+}
+
+img.hugo{
+    padding-top:140px;
+}
+
+div.textintroduction{
+    display: inline-block;
+    width: 600px;
+}
+
