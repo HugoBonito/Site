@@ -1,13 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Sriracha&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins';
 }
 
 body{
     margin: 0px;
+}
+
+h1{
+    color: #000;
+    font-weight: bold;
+    font-size: 100px;
 }
 
 div.menu {
@@ -58,6 +66,64 @@ img.hugo{
 
 div.textintroduction{
     display: inline-block;
-    width: 600px;
+    width: 1000px;
+    padding-left: 200px;
 }
 
+h1.introduction{
+    text-align: left;
+}
+
+p.introduction{
+    padding-top: 122px;
+    padding-left: 190px;
+    font-size: 28px;
+    font-weight: 275;
+
+}
+
+h2#comp{
+    color: #034953;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    padding-top: 120px;
+}
+
+div.images{
+    padding-top: 80px;
+    text-align: center;
+}
+
+div.images > *{
+    padding-right: 45px;
+    padding-left: 45px;
+
+}
+
+h1.projects{
+    padding-top: 294px;
+}
+
+div.projects{
+    padding-top: 235px;
+    text-align: center;
+}
+
+h2.games{
+    color: #034953;
+}
+
+div.footer{
+    font-weight: 200;
+    color: white;
+    background-color: #000;
+    font-size: 15px;
+}
+
+
+
+img.logo2 {
+    width: 63px;
+    height: 61px;
+}
