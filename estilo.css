@@ -18,6 +18,10 @@ h1{
     font-size: 100px;
 }
 
+ul{
+    list-style-type: none;
+}
+
 div.menu {
     background-color: black;
     min-height: 80px;
@@ -40,7 +44,7 @@ nav {
 nav>a {
     color: white;
     padding-right: 30px;
-    font-size: 28px;
+    font-size: 20px;
     text-decoration: none;
     line-height: normal;
 }
@@ -51,6 +55,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-size: 800px;
 
 }
 
@@ -105,25 +110,46 @@ h1.projects{
     padding-top: 294px;
 }
 
-div.projects{
+div.projects1, div.projects2{
     padding-top: 235px;
     text-align: center;
+}
+
+div.projects2{
+    padding-bottom: 514px;
 }
 
 h2.games{
     color: #034953;
 }
 
+
 div.footer{
+    height: 100px;
     font-weight: 200;
     color: white;
     background-color: #000;
     font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
 }
 
+div.Contacts-text{
+    padding-top: 40px;
+    padding-left: 30px;
+}
 
+div.Contacts ul li{
+    padding-top: 20px;
+}
+
+div.logo2{
+    text-align: right;
+}
 
 img.logo2 {
+    padding-top: 20px;
+    padding-right: 30px;
     width: 63px;
     height: 61px;
 }
